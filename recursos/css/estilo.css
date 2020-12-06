@@ -1,0 +1,38 @@
+*{
+    font-family: 'oswald', sans-serif;
+    box-sizing: border-box; /*inclui as bordas */
+
+}
+
+body{
+
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px; /*120 é para o cabeçalho, 1fr para o principal e quer dizer que ele não tem tamanho espécifico, vai se ajustando ao conteudo, 60px para o rodapé*/
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cabecalho"
+        "principal"
+        "rodape";
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+    background-color: #1867c0;
+}
+
+.principal{
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background-color: #f0f0f0;
+    padding:  20px; /*distancia das margens*/
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #fff;
+   /* position: sticky;
+    bottom: 0px; */
+
+}
