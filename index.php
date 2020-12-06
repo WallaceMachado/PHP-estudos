@@ -91,8 +91,8 @@
             </nav>
         </div>
     </main>
-    <footer class="rodape">
-        COD3R & ALUNOS ₢ 2020
+    <footer class="rodape"> 
+        COD3R & ALUNOS ₢ <?= date ('Y'); /*<??> tudo que fica dentro é php e não html */?> 
     </footer>
     
 </body>
