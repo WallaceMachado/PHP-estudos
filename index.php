@@ -114,6 +114,11 @@
                                 Interpolação
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">
+                                Variáveis Variáveis
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo">
