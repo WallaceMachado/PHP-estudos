@@ -38,6 +38,12 @@
 
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=basico&file=comentarios">
+                                Comentarios PHP
+
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
