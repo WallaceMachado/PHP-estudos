@@ -124,6 +124,11 @@
                                 Valor vs Referência
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=constantes">
+                                Constantes
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo">
