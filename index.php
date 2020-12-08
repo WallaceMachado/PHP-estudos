@@ -132,11 +132,13 @@
                     </ul>
                 </div>
                 <div class="modulo roxo">
-                    <h3>Módulo 04</h3>
+                    <h3>Controle</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                         <li>
+                            <a href="exercicio.php?dir=controle&file=if_else">
+                                If Else
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo laranja">
