@@ -194,6 +194,11 @@
                                 $_GET
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=post">
+                                $_POST
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
