@@ -189,6 +189,11 @@
                                 Arrays Constantes
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=get">
+                                $_GET
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
