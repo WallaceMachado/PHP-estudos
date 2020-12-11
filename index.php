@@ -224,6 +224,11 @@
                                 Break/Continue
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=while">
+                                While/Do While
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
