@@ -207,11 +207,14 @@
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
-                    <h3>Módulo 06</h3>
+                <h3>6. Repetições</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=for">
+                                Laço For
+                            </a>
+                        </li>
+                        <li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
