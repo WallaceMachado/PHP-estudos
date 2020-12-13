@@ -259,6 +259,11 @@
                                 Argumentos Variáveis
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=arg_padrao">
+                                Argumento Padrão
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">
