@@ -289,6 +289,11 @@
                                 Retornando Função
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=map_filter">
+                                Map & Filter
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">
