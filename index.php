@@ -297,12 +297,18 @@
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">
-                    <h3>Módulo 08</h3>
+                <h3>8. Paradigma O.O.</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=classe">
+                                Primeira Classe
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=data">
+                                Classe Data
+                            </a>
+                        </li>
                 </div>
                 <div class="modulo roxo-escuro">
                     <h3>Módulo 09</h3>
