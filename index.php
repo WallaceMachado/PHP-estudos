@@ -309,6 +309,11 @@
                                 Classe Data
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">
+                                Const. e Destrutor
+                            </a>
+                        </li>
                 </div>
                 <div class="modulo roxo-escuro">
                     <h3>Módulo 09</h3>
