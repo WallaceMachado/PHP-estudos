@@ -364,6 +364,7 @@
                                 Polimorfismo
                             </a>
                         </li>
+                        </ul>
                 </div>
                 <div class="modulo roxo-escuro">
                 <h3>9. Includes</h3>
@@ -373,6 +374,12 @@
                     Include
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=includes&file=include_funcao">
+                    Include Função
+                </a>
+            </li>
+            </ul>
                 </div>
             </nav>
         </div>
