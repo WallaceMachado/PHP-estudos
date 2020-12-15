@@ -366,12 +366,13 @@
                         </li>
                 </div>
                 <div class="modulo roxo-escuro">
-                    <h3>Módulo 09</h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
+                <h3>9. Includes</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=includes&file=include">
+                    Include
+                </a>
+            </li>
                 </div>
             </nav>
         </div>
