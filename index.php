@@ -379,6 +379,11 @@
                     Include Função
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=includes&file=include_require">
+                    Include vs Require
+                </a>
+            </li>
             </ul>
                 </div>
             </nav>
