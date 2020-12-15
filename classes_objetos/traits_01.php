@@ -1,4 +1,4 @@
-<div class="titulo">Traits #01</div>
+<div class="titulo">Traits #01 - teste</div>
 
 <?php
 trait validacao {
