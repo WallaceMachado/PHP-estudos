@@ -1,9 +1,10 @@
 <?php 
 session_start();
 
-//if($_COOKIE['usuario']) {
- //   $_SESSION['usuario'] = $_COOKIE['usuario'];
-//}
+// verifica se tem usuario armazenado no cookie
+if($_COOKIE['usuario']) {
+   $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
 
 // caso não tenha usuário na sessão será direcionado para a pagina de login
 if(!$_SESSION['usuario']) {

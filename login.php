@@ -27,8 +27,8 @@ if($_POST['email']) {// se houver algum email
         if($emailValido && $senhaValida) {
             $_SESSION['erros'] = null;
             $_SESSION['usuario'] = $usuario['nome'];
-            $exp = time() + 60 * 60 * 24 * 30;
-            setcookie('usuario', $usuario['nome'], $exp);
+            $exp = time() + 60 * 60 * 24 * 30; // tempo logado de 30 dias (seg*min*hora*30)
+            setcookie('usuario', $usuario['nome'], $exp);// informações que serão salva no cookes + exp= data que será deslogado automaticamente
             header('Location: index.php');
         }
     }
