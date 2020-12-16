@@ -7,12 +7,13 @@
 body{
 
     height: 100vh;
-    margin: 0;
+    margin: 0px;
     display: grid;
-    grid-template-rows: 120px 1fr 60px; /*120 é para o cabeçalho, 1fr para o principal e quer dizer que ele não tem tamanho espécifico, vai se ajustando ao conteudo, 60px para o rodapé*/
+    grid-template-rows: 120px 60px 1fr 60px; /*120 é para o cabeçalho, 1fr para o principal e quer dizer que ele não tem tamanho espécifico, vai se ajustando ao conteudo, 60px para o rodapé*/
     grid-template-columns: 1fr;
     grid-template-areas: 
         "cabecalho"
+        "navegacao"
         "principal"
         "rodape";
 }
@@ -45,7 +46,7 @@ body{
 
 .principal{
     grid-area: principal;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 240px);
     background-color: #f0f0f0;
     padding:  20px; /*distancia das margens*/
 }
@@ -67,7 +68,7 @@ body{
     align-items: center;
     font-size: 1.2rem;
     padding-right: 20px;
-    color: #444
+    color: #444;
    
 
 }
@@ -145,8 +146,7 @@ body{
 .modulo.laranja-escuro { border: 2px solid #E65527; }
 .modulo.laranja-escuro > h3 { background-color: #E65527; }
 
-.modulo.cor {border: 2px solid #;}
-.modulo.cor > h3 {background-color: #?;}
+
 
 p.divisao {
     margin-bottom: 0px;
@@ -155,4 +155,34 @@ p.divisao {
 
 hr {
     margin-top: 0px;
+}
+
+.navegacao {
+    grid-area: navegacao;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #555;
+}
+
+.navegacao > a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background-color: #2196f3;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.navegacao > a.verde { background-color: #4CAF50; }
+.navegacao > a.vermelho { background-color: #F44336; }
+
+span.usuario {
+    flex-grow: 1;
+    justify-self: flex-start;
+    color: #EEE;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
 }

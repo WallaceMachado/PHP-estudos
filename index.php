@@ -10,6 +10,7 @@ if(!$_SESSION['usuario']) {
     header('Location: login.php');
 }
 ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
