@@ -1,12 +1,22 @@
+<?php 
+session_start();
+
+//if($_COOKIE['usuario']) {
+ //   $_SESSION['usuario'] = $_COOKIE['usuario'];
+//}
+
+// caso não tenha usuário na sessão será direcionado para a pagina de login
+if(!$_SESSION['usuario']) {
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2? family = Oswald: wght @ 200; 300; 400; 500; 600; 700 & display = swap "rel =" stylesheet ">
-
-    <link rel="stylesheet" href="recursos\css\estilo.css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/css/estilo.css">
     <title>Curso PHP</title>
 </head>
 <body>
@@ -14,14 +24,17 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+    <nav class="navegacao">
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a href="logout.php" class="vermelho">Sair</a>
+    </nav>
     <main class="principal">
         <div class="conteudo">
-        <?php require_once('menu.php'); ?>   
+            <?php require_once('menu.php'); ?>
         </div>
     </main>
-    <footer class="rodape"> 
-        COD3R & ALUNOS ₢ <?= date ('Y'); /*<??> tudo que fica dentro é php e não html */?> 
+    <footer class="rodape">
+        COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
-    
 </body>
 </html>
