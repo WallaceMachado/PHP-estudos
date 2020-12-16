@@ -428,6 +428,11 @@
                     Sessão
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=sessao&file=gerenciando_sessao">
+                    Gerenciando Sessão
+                </a>
+            </li>
             </ul>
                 </div>
             </nav>
