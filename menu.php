@@ -515,6 +515,11 @@
                     Excluir Registro #01
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=db&file=excluir_2">
+                    Excluir Registro #02
+                </a>
+            </li>
             </ul>
        
                 </div>
