@@ -495,6 +495,11 @@
                     Criar Banco
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=db&file=criar_tabela">
+                    Criar Tabela
+                </a>
+            </li>
             </ul>
        
                 </div>
