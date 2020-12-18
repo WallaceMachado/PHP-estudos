@@ -3,7 +3,7 @@
 <?php
 // dados inserido no php 
 error_reporting(E_ERROR); // mostrar somente erros e não advertencias
-require_once "conexao.php";
+require_once "conexao.php"; // se não encontrar dar erro
 
 $sql = "INSERT INTO cadastro
 (nome, nascimento, email, site, filhos, salario)
