@@ -525,6 +525,11 @@
                     Inserir Registro #02
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=db&file=alterar">
+                    Alterar Registro
+                </a>
+            </li>
             </ul>
        
                 </div>
