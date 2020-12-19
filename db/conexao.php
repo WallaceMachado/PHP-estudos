@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR); // mostrar somente erros e não advertencias
 // a conexão foi criado no workbanch e a porta foi alterada para 3307
 function novaConexao($banco = 'curso_php') {
     $servidor = '127.0.0.1:3307'; // se tiver configurado para a porta 3306 não precisa explicitar como esta a 3307

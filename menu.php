@@ -530,7 +530,14 @@
                     Alterar Registro
                 </a>
             </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=inserir_pdo">
+                    PDO: Inserir
+                </a>
+            </li>
             </ul>
+
        
                 </div>
             </nav>
