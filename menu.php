@@ -546,6 +546,11 @@
                     PDO: Excluir
                 </a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=db&file=alterar_pdo">
+                    PDO: Alterar
+                </a>
+            </li>
             </ul>
 
        
